@@ -1,0 +1,112 @@
+.container {
+    width: full;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.row{
+    width: fit-content;
+    display: flex;
+    gap: 15px;
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* justify-content: center; */
+    width:25%;
+    height:25%;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 0.5em;
+}
+.buttonarea{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* justify-content: center; */
+    width:210px;
+    height:fit-content;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 0.5em;
+}
+#display{
+    border: 2px dotted skyblue;
+    font-size: 40px;
+    text-align: center;
+    color: #56000a;
+    height: 3.75rem;
+    width: 10em;
+    overflow: auto;
+    max-width: 225px;
+}
+#display {
+    cursor: pointer;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width:400px;
+    height:fit-content;
+    /* gap:10px; */
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    background-color:  white;   
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+/* CSS */
+.button-26 {
+  appearance: button;
+  background-color: #1652F0;
+  border: 1px solid #1652F0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-size: 14px;
+  line-height: 1.15;
+  overflow: visible;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40px;
+}
+
+.button-26:disabled {
+  opacity: .5;
+}
+
+.button-26:focus {
+  outline: 0;
+}
+
+.button-26:hover {
+  background-color: #0A46E4;
+  border-color: #0A46E4;
+}
+
+.button-26:active {
+  background-color: #0039D7;
+  border-color: #0039D7;
+}
+
+#op{
+    background-color: #ff8d41;
+    border: none;
+}
